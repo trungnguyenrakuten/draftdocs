@@ -191,3 +191,27 @@ Tool:
 - [What Chromium do when the deeplink was clicked](https://stackoverflow.com/questions/36651441/android-app-https-deeplink-and-chrome-browser)
 - [Solution for 'Navigation is blocked](https://stackoverflow.com/questions/41524087/navigation-is-blocked-when-redirecting-from-chrome-custom-tab-to-android-app)
 - [Chromium topic talking about Oauth and this kind of error 'Navigation is blocked'](https://bugs.chromium.org/p/chromium/issues/detail?id=738724)
+
+
+
+
+
+# Udpates
+
+## 1. Investigation updates on 19 Apr
+
+
+After doing some investigation with the RakutenBrowser APK file, I got some updates as below:
+
+1. We have a log that says the disambiguation dialog is displayed by com.android.setting package(Setting app).
+
+2. I have taken a look at the source of Setting system app. After user selects the browser, it will call a method "setResult(int, Intent)" to tell the caller of the Dialog activity to start the intent chose from the dialog.
+
+3. However, I can not find the caller of the dialog.
+
+
+
+Next action:
+- Ask the RBrowser to give access to the repo source.
+
+- If the option 1 can not be happen, I will try to build a Chromium browser by myself and test with it.
