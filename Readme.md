@@ -229,6 +229,8 @@ After doing some investigation with the RakutenBrowser APK file, I got some upda
 - Source : https://github.com/chromium/chromium
 - Commits: https://github.com/chromium/chromium/commit/098319b6e1eff1888fc2a682273ee2d98df27a25
 
+<img width="1288" alt="Screen Shot 2022-04-20 at 18 51 24" src="https://user-images.githubusercontent.com/101083739/164201838-39a7ccaf-0b02-4b6f-ae25-53d1fc12fa67.png">
+
 ### Consideration:
 
 - Chrome requires the dialog when the target app is a browser like application. 
@@ -238,6 +240,9 @@ After doing some investigation with the RakutenBrowser APK file, I got some upda
 
 - Is it possible to debug the Chromium in RBrowser? 
 - If we can, ask RBrowser devs to setup a meeting and do remote-debug because my PC can not get the Chromium source. 
+
+### Soluion 
 - Seems the Android Applink(the previous suggestion) also can not solve this case. **Need to check if have time cause its alot of change**.
+- ...
 
 
