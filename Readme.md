@@ -200,6 +200,11 @@ Tool:
 
 ## 1. Investigation updates on 19 Apr
 
+### JS redirect:
+
+- The JS worked well. Seems fixed from Chrome 61. 
+
+### New approach
 
 After doing some investigation with the RakutenBrowser APK file, I got some updates as below:
 
@@ -210,8 +215,7 @@ After doing some investigation with the RakutenBrowser APK file, I got some upda
 3. However, I can not find the caller of the dialog.
 
 
-
-Next action:
+### Next action:
 - Ask the RBrowser to give access to the repo source.
 
 - If the option 1 can not be happen, I will try to build a Chromium browser by myself and test with it. Doing it in the meantime.
