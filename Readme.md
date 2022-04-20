@@ -214,4 +214,4 @@ After doing some investigation with the RakutenBrowser APK file, I got some upda
 Next action:
 - Ask the RBrowser to give access to the repo source.
 
-- If the option 1 can not be happen, I will try to build a Chromium browser by myself and test with it.
+- If the option 1 can not be happen, I will try to build a Chromium browser by myself and test with it. Doing it in the meantime.
